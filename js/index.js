@@ -4,7 +4,7 @@ document.getElementById("taskFirstBtn").addEventListener("click", function () {
 
   for (let i = 0; i < 5; i++) {
     let number = Number(prompt("Введи число:"));
-    numbers.push(num);
+    numbers.push(number);
     summary += number;
   }
 
